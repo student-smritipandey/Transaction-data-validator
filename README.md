@@ -68,3 +68,8 @@ http://127.0.0.1:5000
 ## Author
 
 Smriti Pandey
+
+
+# Live project URL
+https://transaction-data-validator.onrender.com
+https://transaction-data-validator.onrender.com
