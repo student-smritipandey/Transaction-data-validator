@@ -1,0 +1,7 @@
+{
+  "IN": {"phone_length": 10},
+  "SG": {"phone_length": 8},
+  "US": {"phone_length": 10},
+  "UK": {"phone_length": 11},
+  "AU": {"phone_length": 9}
+}
