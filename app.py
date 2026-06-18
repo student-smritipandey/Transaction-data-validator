@@ -4,7 +4,7 @@ from validators.date_validator import validate_date
 from validators.payment_validator import validate_payment
 from utils.csv_splitter import split_csv
 import pandas as pd
-
+import os
 app = Flask(__name__)
 
 
@@ -113,6 +113,7 @@ def upload():
         "Errors": errors
     })
 
+    os.makedirs("reports", exist_ok=True)
     error_df.to_csv(
         "reports/error_report.csv",
         index=False
